@@ -6,8 +6,8 @@ type Meeting struct {
 	Base
 	Date     string
 	Public   bool
-	Invitees []Citizen
-	Host     Citizen
+	Invitees []Person
+	Host     Person
 	Status   Status
 	// transcript self url
 	Transcript string
